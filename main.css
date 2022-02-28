@@ -1,0 +1,206 @@
+
+
+body{
+    width: 100vh;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    margin: -150px 0 0 -150px;
+    top: 50%;
+    left: 50%;
+}
+
+.text p{
+    font-size: 40px;
+    padding: 0;
+}
+
+.img{
+    position: absolute;
+    height: auto;
+    width: 15%;
+    z-index: 1;
+}
+
+.img1{
+    top: 5%;
+    left: 5%;
+    animation: circle1 30s linear infinite;
+}
+
+.img2{
+    top: 30%;
+    left: 10%;
+    animation: circle2 30s linear infinite;
+
+}
+
+.img3{
+    top: -5%;
+    left: 30%;
+    animation: circle3 40s linear infinite;
+
+}
+
+.img4{
+    top: 68%;
+    left: 15%;
+    animation: circle4 50s linear infinite;
+}
+
+.img5{
+    top: 5%;
+    left: 70%;
+    animation: circle5 70s linear infinite;
+}
+
+.img6{
+    top: 85%;
+    left: 50%;
+    animation: circle6 30s linear infinite;
+}
+
+.img7{
+    top: 75%;
+    left: 80%;
+    animation: circle7 50s linear infinite;
+}
+
+.img8{
+    top: 15%;
+    left: 40%;
+    animation: circle2 20s linear infinite;
+}
+
+.img9{
+    top: 50%;
+    left: 3%;
+    animation: circle6 50s linear infinite;
+}
+
+.img10{
+    top: 45%;
+    left: 82%;
+    animation: circle7 20s linear infinite;
+}
+
+.img11{
+    top: 5%;
+    left: 95%;
+    animation: circle8 20s linear infinite;
+}
+
+.img12{
+    top: 90%;
+    left: 9%;
+    animation: circle1 20s linear infinite;
+}
+
+@keyframes circle1{
+    from{
+        transform: rotate(0deg)
+                    translate(-30px)
+                    rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)
+                    translate(-30px)
+                    rotate(-360deg);
+    }
+}
+
+@keyframes circle2{
+    from{
+        transform: rotate(360deg)
+                    translate(-30px)
+                    rotate(-360deg);
+    }
+    to{
+        transform: rotate(0deg)
+                    translate(-30px)
+                    rotate(0deg);
+    }
+}
+
+@keyframes circle3{
+    from{
+        transform: rotate(360deg)
+                    translate(-30px)
+                    rotate(-360deg);
+    }
+    to{
+        transform: rotate(0deg)
+                    translate(-30px)
+                    rotate(0deg);
+    }
+}
+@keyframes circle4{
+    from{
+        transform: rotate(360deg)
+                    translate(-60px)
+                    rotate(-360deg);
+    }
+    to{
+        transform: rotate(0deg)
+                    translate(-60px)
+                    rotate(0deg);
+    }
+}
+@keyframes circle5{
+    from{
+        transform: rotate(360deg)
+                    translate(-80px)
+                    rotate(-360deg);
+    }
+    to{
+        transform: rotate(0deg)
+                    translate(-80px)
+                    rotate(0deg);
+    }
+}
+@keyframes circle6{
+    from{
+        transform: rotate(-360deg)
+                    translate(-80px)
+                    rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg)
+                    translate(-80px)
+                    rotate(0deg);
+    }
+}
+@keyframes circle7{
+    from{
+        transform: rotate(360deg)
+                    translate(-50px)
+                    rotate(-360deg);
+    }
+    to{
+        transform: rotate(0deg)
+                    translate(-50px)
+                    rotate(0deg);
+    }
+}
+@keyframes circle8{
+    from{
+        transform: rotate(-360deg)
+                    translate(-40px)
+                    rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg)
+                    translate(-40px)
+                    rotate(0deg);
+    }
+}
