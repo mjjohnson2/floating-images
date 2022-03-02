@@ -84,7 +84,7 @@ body{
 
 .img9{
     top: 50%;
-    left: 3%;
+    left: 53%;
     animation: circle6 50s linear infinite;
 }
 
@@ -135,12 +135,12 @@ body{
 @keyframes circle3{
     from{
         transform: rotate(360deg)
-                    translate(-30px)
+                    translate(-10px)
                     rotate(-360deg);
     }
     to{
         transform: rotate(0deg)
-                    translate(-30px)
+                    translate(-10px)
                     rotate(0deg);
     }
 }
