@@ -34,13 +34,13 @@ body{
 
 .img1{
     top: 5%;
-    left: 5%;
-    animation: circle1 30s linear infinite;
+    left: 50%;
+    animation: circle1 15s linear infinite;
 }
 
 .img2{
-    top: 30%;
-    left: 10%;
+    top: -5%;
+    left: 0%;
     animation: circle2 30s linear infinite;
 
 }
@@ -54,7 +54,7 @@ body{
 
 .img4{
     top: 68%;
-    left: 15%;
+    left: 35%;
     animation: circle4 50s linear infinite;
 }
 
@@ -77,8 +77,8 @@ body{
 }
 
 .img8{
-    top: 15%;
-    left: 40%;
+    top: 87%;
+    left: 60%;
     animation: circle2 20s linear infinite;
 }
 
